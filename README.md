@@ -4,11 +4,11 @@
 This single page application features a variety of locations in Saigon, Vietnam. 
 
 ## Installation Guide
-$ git clone https://github.com/ktran031/udacity-neighborhood-app.git
+- $ git clone https://github.com/ktran031/udacity-neighborhood-app.git
 
 Get in the repository folder's terminal: 
-$ npm install
-$ npm start
+- $ npm install
+- $ npm start
 
 ## Important
 
