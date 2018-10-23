@@ -1,7 +1,7 @@
 # Neighborhood Map Project
 
 ## Overview
-This single page application features a variety of locations in Saigon, Vietnam. 
+This single page application features a variety of locations in Saigon, Vietnam utilizing React, Google Maps API and the Places API by FourSquare.
 
 ## Installation Guide
 - $ git clone https://github.com/ktran031/udacity-neighborhood-app.git
