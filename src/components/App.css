@@ -1,0 +1,89 @@
+h2 {
+    color: #bf1010;
+    background: #ffff23;
+    padding: 5px;
+    max-width: 250px;
+    margin: 20px auto;
+    box-shadow: 1px 2px 8px #000;
+}
+
+.search-container {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    background: #bf1010;
+}
+
+.search-field {
+    padding: 10px;
+    background: #bf1010;
+    color: #ffff23;
+    border: 1px #ffff23 solid;
+    box-shadow: 1px 2px 8px #000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-field:hover {
+    background: #a90329; /* Old browsers */
+    background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+
+input::placeholder {
+    color: #ffff23;
+    font-size: 14px;
+}
+
+.searchBar ul {
+    background: #ffff23;
+    border: 1px solid darkgrey;
+    margin: 0;
+    list-style-type: square;
+    padding: 20px;
+    overflow: auto;
+}
+
+.searchBar ul li {
+    color: #e00f0f;
+    transition: all .1s ease-in;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.box {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.box:hover {
+    background-color: #bf1010;
+    color: #ffff23;
+}
+
+.button {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #bf1010;
+    color: #ffff23;
+    border: 1px #ffff23 solid;
+    box-shadow: 1px 2px 8px #000;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background: #a90329; /* Old browsers */
+    background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
